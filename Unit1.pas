@@ -226,8 +226,13 @@ type
     procedure Answer8_2Click(Sender: TObject);
     procedure Answer9_1Click(Sender: TObject);
     procedure Answer9_2Click(Sender: TObject);
+    procedure FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+    procedure ScrollBox1MouseWheelDown(Sender: TObject; Shift: TShiftState;
+      MousePos: TPoint; var Handled: Boolean);
+    procedure ScrollBox1MouseWheelUp(Sender: TObject; Shift: TShiftState;
+      MousePos: TPoint; var Handled: Boolean);
   private
-    { Private declarations }
+
   public
     { Public declarations }
   end;
@@ -360,6 +365,7 @@ begin
 
 end;
 
+
 procedure TForm1.BackClick(Sender: TObject);
 begin
 if page_number>1 then
@@ -425,11 +431,35 @@ begin
 
 end;
 
+procedure TForm1.ScrollBox1MouseWheelDown(Sender: TObject; Shift: TShiftState;
+  MousePos: TPoint; var Handled: Boolean);
+begin
+   with scrollBox1.VertScrollBar do
+   Position := Position + Increment;
+end;
+
+procedure TForm1.ScrollBox1MouseWheelUp(Sender: TObject; Shift: TShiftState;
+  MousePos: TPoint; var Handled: Boolean);
+begin
+   with scrollBox1.VertScrollBar do
+   Position := Position - Increment;
+end;
+
 procedure TForm1.FormCreate(Sender: TObject);
 begin
 n10:=10;
 Number_of_pages:=17;
 page_number:=1;
+end;
+
+
+
+
+
+procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
+begin
+if Key=37 then back.Click;
+if Key=39 then next.Click;
 end;
 
 procedure TForm1.Link10DblClick(Sender: TObject);
