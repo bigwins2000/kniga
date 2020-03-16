@@ -61,12 +61,6 @@ Coordinates=91,214,49,58
 [List1]
 Coordinates=10,78,49,58
 
-[Topik3]
-Coordinates=250,78,53,58
-
-[Topik1]
-Coordinates=387,10,53,58
-
 [List7]
 Coordinates=191,78,49,58
 
@@ -78,9 +72,6 @@ Coordinates=75,146,53,58
 
 [Topik4]
 Coordinates=376,78,53,58
-
-[Topik2]
-Coordinates=313,78,53,58
 
 [Topik5]
 Coordinates=128,78,53,58
@@ -103,4 +94,13 @@ Visible=True
 
 [Memo7_1]
 Coordinates=138,146,71,58
+
+[NameProject]
+Coordinates=387,10,53,58
+
+[ogl]
+Coordinates=313,78,53,58
+
+[VVed]
+Coordinates=250,78,53,58
 

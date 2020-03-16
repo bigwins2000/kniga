@@ -29,7 +29,7 @@ type
     Back: TButton;
     Next: TButton;
     List1: TPanel;
-    Topik1: TLabel;
+    NameProject: TLabel;
     List7: TPanel;
     Topik7: TLabel;
     Title7: TLabel;
@@ -38,8 +38,8 @@ type
     Answer7: TPanel;
     Memo7_1: TMemo;
     Memo7_3: TMemo;
-    Topik2: TLabel;
-    Topik3: TLabel;
+    ogl: TLabel;
+    VVed: TLabel;
     Topik4: TLabel;
     Topik5: TLabel;
     List8: TPanel;
@@ -167,10 +167,48 @@ type
     Answer15_3: TPanel;
     Image15_4: TImage;
     Memo15_9: TMemo;
+    Bysuv: TMemo;
+    Byruk: TMemo;
+    Panel1: TPanel;
+    Link1: TLabel;
+    Link2: TLabel;
+    Link3: TLabel;
+    Link4: TLabel;
+    Link5: TLabel;
+    Link6: TLabel;
+    Link7: TLabel;
+    Link8: TLabel;
+    Link9: TLabel;
+    Link10: TLabel;
+    Link11: TLabel;
+    Link12: TLabel;
+    Link13: TLabel;
+    Link14: TLabel;
+    Link15: TLabel;
+    Link16: TLabel;
+    Link17: TLabel;
+    Memo2: TMemo;
     procedure Answer6Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure BackClick(Sender: TObject);
     procedure NextClick(Sender: TObject);
+    procedure Link1DblClick(Sender: TObject);
+    procedure Link10DblClick(Sender: TObject);
+    procedure Link11DblClick(Sender: TObject);
+    procedure Link12DblClick(Sender: TObject);
+    procedure Link13DblClick(Sender: TObject);
+    procedure Link14DblClick(Sender: TObject);
+    procedure Link15DblClick(Sender: TObject);
+    procedure Link16DblClick(Sender: TObject);
+    procedure Link17DblClick(Sender: TObject);
+    procedure Link2DblClick(Sender: TObject);
+    procedure Link3DblClick(Sender: TObject);
+    procedure Link4DblClick(Sender: TObject);
+    procedure Link5DblClick(Sender: TObject);
+    procedure Link6DblClick(Sender: TObject);
+    procedure Link7DblClick(Sender: TObject);
+    procedure Link8DblClick(Sender: TObject);
+    procedure Link9DblClick(Sender: TObject);
   private
     { Private declarations }
   public
@@ -223,6 +261,123 @@ Number_of_pages:=17;
 page_number:=1;
 end;
 
+procedure TForm1.Link10DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=10;
+Form1.List10.Visible:=True;
+end;
 
+procedure TForm1.Link11DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=11;
+Form1.List11.Visible:=True;
+end;
+
+procedure TForm1.Link12DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=12;
+Form1.List12.Visible:=True;
+end;
+
+procedure TForm1.Link13DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=13;
+Form1.List13.Visible:=True;
+end;
+
+procedure TForm1.Link14DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=14;
+Form1.List14.Visible:=True;
+end;
+
+procedure TForm1.Link15DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=15;
+Form1.List15.Visible:=True;
+end;
+
+procedure TForm1.Link16DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=16;
+Form1.List16.Visible:=True;
+end;
+
+procedure TForm1.Link17DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=17;
+Form1.List17.Visible:=True;
+end;
+
+procedure TForm1.Link1DblClick(Sender: TObject);
+begin
+Form1.List1.Visible:=True;
+page_number:=2;
+Form1.List2.Visible:=false;
+end;
+
+procedure TForm1.Link2DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=2;
+Form1.List2.Visible:=True;
+end;
+
+procedure TForm1.Link3DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=3;
+Form1.List3.Visible:=True;
+end;
+
+procedure TForm1.Link4DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=4;
+Form1.List4.Visible:=True;
+end;
+
+procedure TForm1.Link5DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=5;
+Form1.List5.Visible:=True;
+end;
+
+procedure TForm1.Link6DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=6;
+Form1.List6.Visible:=True;
+end;
+
+procedure TForm1.Link7DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=7;
+Form1.List7.Visible:=True;
+end;
+
+procedure TForm1.Link8DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=8;
+Form1.List8.Visible:=True;
+end;
+
+procedure TForm1.Link9DblClick(Sender: TObject);
+begin
+Form1.List2.Visible:=false;
+page_number:=9;
+Form1.List9.Visible:=True;
+end;
 
 end.

@@ -78,3 +78,29 @@ if (dragging==true)
 
 
 
+void __fastcall TForm1::CloseClick(TObject *Sender)
+{
+Application->Terminate();
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::fullClick(TObject *Sender)
+{
+     	if (Form1->WindowState==wsMaximized)
+	{
+		Form1->WindowState=wsNormal;
+	}
+	else
+	{
+		Form1->WindowState=wsMaximized;
+	}
+
+}
+//---------------------------------------------------------------------------
+
+void __fastcall TForm1::DownClick(TObject *Sender)
+{
+Form1->WindowState = wsMinimized;
+}
+//---------------------------------------------------------------------------
+
