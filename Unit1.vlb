@@ -1,11 +1,5 @@
-﻿[List3]
-Coordinates=268,214,49,58
-
-[LeftBlock]
+﻿[LeftBlock]
 Coordinates=212,146,68,58
-
-[List2]
-Coordinates=150,214,49,58
 
 [Memo6_4]
 Coordinates=165,282,71,58
@@ -24,9 +18,6 @@ Coordinates=430,146,76,58
 
 [ScrollBox1]
 Coordinates=246,282,76,36
-
-[List4]
-Coordinates=290,146,49,58
 
 [Title6]
 Coordinates=390,214,49,58
@@ -58,9 +49,6 @@ Coordinates=327,214,53,58
 [Back]
 Coordinates=91,214,49,58
 
-[List1]
-Coordinates=10,78,49,58
-
 [List7]
 Coordinates=191,78,49,58
 
@@ -70,9 +58,6 @@ Coordinates=69,78,49,58
 [Topik7]
 Coordinates=75,146,53,58
 
-[Topik4]
-Coordinates=376,78,53,58
-
 [Topik5]
 Coordinates=128,78,53,58
 
@@ -80,7 +65,7 @@ Coordinates=128,78,53,58
 Coordinates=92,10,71,58
 
 []
-Coordinates=597,1,91,36
+Coordinates=376,78,53,58
 
 [Memo7_2]
 Coordinates=254,10,71,58
@@ -103,4 +88,16 @@ Coordinates=313,78,53,58
 
 [VVed]
 Coordinates=250,78,53,58
+
+[List4]
+Coordinates=268,214,49,58
+
+[List3]
+Coordinates=150,214,49,58
+
+[List2]
+Coordinates=10,78,49,58
+
+[List1]
+Coordinates=290,146,49,58
 

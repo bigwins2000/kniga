@@ -22,13 +22,13 @@ type
     Memo6_4: TMemo;
     Image6_2: TImage;
     Answer6: TPanel;
-    List2: TPanel;
-    List4: TPanel;
-    List5: TPanel;
     List3: TPanel;
+    List1: TPanel;
+    List5: TPanel;
+    List4: TPanel;
     Back: TButton;
     Next: TButton;
-    List1: TPanel;
+    List2: TPanel;
     NameProject: TLabel;
     List7: TPanel;
     Topik7: TLabel;
@@ -40,7 +40,6 @@ type
     Memo7_3: TMemo;
     ogl: TLabel;
     VVed: TLabel;
-    Topik4: TLabel;
     Topik5: TLabel;
     List8: TPanel;
     Topik8: TLabel;
@@ -188,6 +187,9 @@ type
     Link16: TLabel;
     Link17: TLabel;
     Memo2: TMemo;
+    Memo3: TMemo;
+    Image2: TImage;
+    Memo4: TMemo;
     procedure Answer6Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure BackClick(Sender: TObject);
@@ -209,6 +211,21 @@ type
     procedure Link7DblClick(Sender: TObject);
     procedure Link8DblClick(Sender: TObject);
     procedure Link9DblClick(Sender: TObject);
+    procedure Answer10_1Click(Sender: TObject);
+    procedure Answer10_2Click(Sender: TObject);
+    procedure Answer12_1Click(Sender: TObject);
+    procedure Answer12_2Click(Sender: TObject);
+    procedure Answer12_3Click(Sender: TObject);
+    procedure Panel3Click(Sender: TObject);
+    procedure Answer15_1Click(Sender: TObject);
+    procedure Answer15_2Click(Sender: TObject);
+    procedure Answer15_3Click(Sender: TObject);
+    procedure Answer16_2Click(Sender: TObject);
+    procedure Answer7Click(Sender: TObject);
+    procedure Answer8_1Click(Sender: TObject);
+    procedure Answer8_2Click(Sender: TObject);
+    procedure Answer9_1Click(Sender: TObject);
+    procedure Answer9_2Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -223,6 +240,78 @@ implementation
 
 {$R *.dfm}
 
+procedure TForm1.Answer10_1Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer10_1.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer10_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer10_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer12_1Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer12_1.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer12_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer12_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer12_3Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer12_3.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer15_1Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer15_1.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer15_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer15_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer15_3Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer15_3.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer16_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer16_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
 procedure TForm1.Answer6Click(Sender: TObject);
 begin
   n10:=n10-1;
@@ -231,28 +320,110 @@ begin
 
 end;
 
+procedure TForm1.Answer7Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer7.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer8_1Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer8_1.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer8_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer8_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer9_1Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer9_1.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
+procedure TForm1.Answer9_2Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Answer9_2.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
+
 procedure TForm1.BackClick(Sender: TObject);
 begin
 if page_number>1 then
 begin
-
+n10:=10;
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=False;
 page_number:=page_number-1;
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=true;
-end
+
+end;
+Answer10_1.Visible:=true;
+Answer10_2.Visible:=true;
+Answer12_1.Visible:=true;
+Answer12_2.Visible:=true;
+Answer12_3.Visible:=true;
+Answer15_1.Visible:=true;
+Answer15_2.Visible:=true;
+Answer15_3.Visible:=true;
+Answer16_2.Visible:=true;
+Answer6.Visible:=true;
+Answer7.Visible:=true;
+Answer8_1.Visible:=true;
+Answer8_2.Visible:=true;
+Answer9_1.Visible:=true;
+Answer9_2.Visible:=true;
+
 end;
 
 procedure TForm1.NextClick(Sender: TObject);
 begin
 if Number_of_pages>page_number then
 begin
-
+n10:=10;
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=false;
 page_number:=page_number+1;
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=true;
-end
+end      ;
+
+Answer10_1.Visible:=true;
+Answer10_2.Visible:=true;
+Answer12_1.Visible:=true;
+Answer12_2.Visible:=true;
+Answer12_3.Visible:=true;
+Answer15_1.Visible:=true;
+Answer15_2.Visible:=true;
+Answer15_3.Visible:=true;
+Answer16_2.Visible:=true;
+Answer6.Visible:=true;
+Answer7.Visible:=true;
+Answer8_1.Visible:=true;
+Answer8_2.Visible:=true;
+Answer9_1.Visible:=true;
+Answer9_2.Visible:=true;
+
 end;
 
+
+procedure TForm1.Panel3Click(Sender: TObject);
+begin
+  n10:=n10-1;
+  if n10=0 then Panel3.Visible:=False;
+  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
+
+end;
 
 procedure TForm1.FormCreate(Sender: TObject);
 begin
@@ -263,56 +434,56 @@ end;
 
 procedure TForm1.Link10DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=10;
 Form1.List10.Visible:=True;
 end;
 
 procedure TForm1.Link11DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=11;
 Form1.List11.Visible:=True;
 end;
 
 procedure TForm1.Link12DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=12;
 Form1.List12.Visible:=True;
 end;
 
 procedure TForm1.Link13DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=13;
 Form1.List13.Visible:=True;
 end;
 
 procedure TForm1.Link14DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=14;
 Form1.List14.Visible:=True;
 end;
 
 procedure TForm1.Link15DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=15;
 Form1.List15.Visible:=True;
 end;
 
 procedure TForm1.Link16DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=16;
 Form1.List16.Visible:=True;
 end;
 
 procedure TForm1.Link17DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=17;
 Form1.List17.Visible:=True;
 end;
@@ -321,61 +492,61 @@ procedure TForm1.Link1DblClick(Sender: TObject);
 begin
 Form1.List1.Visible:=True;
 page_number:=2;
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 end;
 
 procedure TForm1.Link2DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=2;
 Form1.List2.Visible:=True;
 end;
 
 procedure TForm1.Link3DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=3;
 Form1.List3.Visible:=True;
 end;
 
 procedure TForm1.Link4DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=4;
 Form1.List4.Visible:=True;
 end;
 
 procedure TForm1.Link5DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=5;
 Form1.List5.Visible:=True;
 end;
 
 procedure TForm1.Link6DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=6;
 Form1.List6.Visible:=True;
 end;
 
 procedure TForm1.Link7DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=7;
 Form1.List7.Visible:=True;
 end;
 
 procedure TForm1.Link8DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=8;
 Form1.List8.Visible:=True;
 end;
 
 procedure TForm1.Link9DblClick(Sender: TObject);
 begin
-Form1.List2.Visible:=false;
+Form1.List3.Visible:=false;
 page_number:=9;
 Form1.List9.Visible:=True;
 end;
