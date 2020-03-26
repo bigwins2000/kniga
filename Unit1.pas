@@ -40,7 +40,6 @@ type
     Memo7_3: TMemo;
     ogl: TLabel;
     VVed: TLabel;
-    Topik5: TLabel;
     List8: TPanel;
     Topik8: TLabel;
     Title8: TLabel;
@@ -169,11 +168,7 @@ type
     Bysuv: TMemo;
     Byruk: TMemo;
     Panel1: TPanel;
-    Link1: TLabel;
-    Link2: TLabel;
-    Link3: TLabel;
     Link4: TLabel;
-    Link5: TLabel;
     Link6: TLabel;
     Link7: TLabel;
     Link8: TLabel;
@@ -190,6 +185,15 @@ type
     Memo3: TMemo;
     Image2: TImage;
     Memo4: TMemo;
+    Label1: TLabel;
+    Label2: TLabel;
+    Image3: TImage;
+    List18: TPanel;
+    Label3: TLabel;
+    Memo7: TMemo;
+    List19: TPanel;
+    Label7: TLabel;
+    Memo14: TMemo;
     procedure Answer6Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure BackClick(Sender: TObject);
@@ -231,6 +235,9 @@ type
       MousePos: TPoint; var Handled: Boolean);
     procedure ScrollBox1MouseWheelUp(Sender: TObject; Shift: TShiftState;
       MousePos: TPoint; var Handled: Boolean);
+    procedure Label1DblClick(Sender: TObject);
+    procedure List18DblClick(Sender: TObject);
+    procedure List19DblClick(Sender: TObject);
   private
 
   public
@@ -371,6 +378,10 @@ begin
 if page_number>1 then
 begin
 n10:=10;
+
+
+
+
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=False;
 page_number:=page_number-1;
 (Form1.FindComponent('list'+IntToStr(page_number)) as TPanel).Visible:=true;
@@ -448,7 +459,7 @@ end;
 procedure TForm1.FormCreate(Sender: TObject);
 begin
 n10:=10;
-Number_of_pages:=17;
+Number_of_pages:=19;
 page_number:=1;
 end;
 
@@ -460,6 +471,13 @@ procedure TForm1.FormKeyUp(Sender: TObject; var Key: Word; Shift: TShiftState);
 begin
 if Key=37 then back.Click;
 if Key=39 then next.Click;
+end;
+
+procedure TForm1.Label1DblClick(Sender: TObject);
+begin
+Form1.List3.Visible:=false;
+page_number:=17;
+Form1.List17.Visible:=True;
 end;
 
 procedure TForm1.Link10DblClick(Sender: TObject);
@@ -579,6 +597,20 @@ begin
 Form1.List3.Visible:=false;
 page_number:=9;
 Form1.List9.Visible:=True;
+end;
+
+procedure TForm1.List18DblClick(Sender: TObject);
+begin
+Form1.List3.Visible:=false;
+page_number:=18;
+Form1.List18.Visible:=True;
+end;
+
+procedure TForm1.List19DblClick(Sender: TObject);
+begin
+Form1.List3.Visible:=false;
+page_number:=19;
+Form1.List19.Visible:=True;
 end;
 
 end.
