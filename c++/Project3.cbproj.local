@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2020.04.23 02:00:10.937,=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>2020.04.23 02:00:11.032,=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.cpp</Transaction>
-    <Transaction>2020.04.23 02:00:24.555,C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.cpp=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.cpp</Transaction>
-    <Transaction>2020.04.23 02:00:24.555,C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.h=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.h</Transaction>
-    <Transaction>2020.04.23 02:00:24.555,C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.dfm=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.dfm</Transaction>
-    <Transaction>2020.04.23 02:00:30.711,C:\Users\Vadim\Documents\GitHub\kniga\c++\Project3PCH1.h=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
-    <Transaction>2020.04.23 02:00:33.706,C:\Users\Vadim\Documents\GitHub\kniga\c++\Project3.cbproj=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.711,C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3PCH1.h=C:\Users\Vadim\Documents\GitHub\kniga\c++\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.555,C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.h=C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.555,C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.dfm=C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.dfm</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.937,=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.555,C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.cpp=C:\Users\Vadim\Documents\GitHub\kniga\c++\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.032,=C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Unit5.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.706,C:\Users\Vadim\Documents\Embarcadero\Studio\Projects\Project3.cbproj=C:\Users\Vadim\Documents\GitHub\kniga\c++\Project3.cbproj</Transaction>
   </Transactions>
 </BorlandProject>

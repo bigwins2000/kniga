@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
 	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.868,C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project1.cbproj=C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Project1.cbproj</Transaction>
     <Transaction>1899.12.30 00:00:00.000.264,=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.868,C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Project1.cbproj=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project1.cbproj</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.dfm=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.h=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.056,C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h=C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.h=C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.dfm</Transaction>
     <Transaction>1899.12.30 00:00:00.000.784,=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.cpp=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.cpp</Transaction>
-    <Transaction>1899.12.30 00:00:00.000.056,C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Project1PCH1.h=C:\Users\admin\Documents\Embarcadero\Studio\Projects\Project1PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.155,C:\Users\admin\Documents\Embarcadero\Studio\Projects\Unit1.cpp=C:\Users\admin\Documents\Embarcadero\Studio\Projects\с++\Unit1.cpp</Transaction>
   </Transactions>
 </BorlandProject>

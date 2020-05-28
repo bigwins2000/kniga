@@ -257,7 +257,6 @@ type
     procedure Answer15_1Click(Sender: TObject);
     procedure Answer15_2Click(Sender: TObject);
     procedure Answer15_3Click(Sender: TObject);
-    procedure Answer16_2Click(Sender: TObject);
     procedure Answer7Click(Sender: TObject);
     procedure Answer8_1Click(Sender: TObject);
     procedure Answer8_2Click(Sender: TObject);
@@ -350,13 +349,6 @@ begin
 
 end;
 
-procedure TForm1.Answer16_2Click(Sender: TObject);
-begin
-  n10:=n10-1;
-  if n10=0 then Answer16_2.Visible:=False;
-  Answer6.Caption:='Нажмите '+IntToStr(n10)+' раз для открытия решения.';
-
-end;
 
 procedure TForm1.Answer6Click(Sender: TObject);
 begin
@@ -429,7 +421,6 @@ Answer12_3.Visible:=true;
 Answer15_1.Visible:=true;
 Answer15_2.Visible:=true;
 Answer15_3.Visible:=true;
-Answer16_2.Visible:=true;
 Answer6.Visible:=true;
 Answer7.Visible:=true;
 Answer8_1.Visible:=true;
@@ -457,7 +448,6 @@ Answer12_3.Visible:=true;
 Answer15_1.Visible:=true;
 Answer15_2.Visible:=true;
 Answer15_3.Visible:=true;
-Answer16_2.Visible:=true;
 Answer6.Visible:=true;
 Answer7.Visible:=true;
 Answer8_1.Visible:=true;
